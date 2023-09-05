@@ -105,6 +105,7 @@ export default function DebounceText() {
       }
     } else {
       textFieldRef.current?.focus();
+      textFieldRef.current?.select();
     }
   }, [selectedCell]);
 
