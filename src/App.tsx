@@ -11,7 +11,7 @@ function App() {
 
   return (
     <DarkTheme>
-      <Box className='bg' display='flex' alignItems='flex-start' justifyContent='center' sx={{ py: 1, minWidth: '22rem', px: '1rem', minHeight: '100vh', position: 'relative' }}>
+      <Box className='bg' display='flex' alignItems='flex-start' justifyContent='center' sx={{ minWidth: '22rem', p: '1rem', pb: '3rem', minHeight: '100vh', position: 'relative' }}>
         <ThemeSwitcher />
         <Grid className='bg' container gap={2} sx={{ maxWidth: '56rem', justifyContent: 'center' }}>
           <Grid item xs={12} sx={{ textAlign: 'center' }}>
