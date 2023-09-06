@@ -43,9 +43,9 @@ export default function ImageGrid() {
         setStore({ ['selectedCell']: NaN, ['disableTextField']: true });
       }
     }
-    window.addEventListener('mousedown', exit);
+    window.addEventListener('click', exit);
     return () => {
-      window.removeEventListener('mousedown', exit);
+      window.removeEventListener('click', exit);
     }
   }, []);
 

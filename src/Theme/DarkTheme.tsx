@@ -37,7 +37,6 @@ export default function DarkTheme({ children }: { children: React.ReactNode }) {
       MuiCard: {
         styleOverrides: {
           root: {
-            boxShadow: 'none',
             border: theme ? '1px solid #ffffff20' : '1px solid #00000030',
           },
         },
