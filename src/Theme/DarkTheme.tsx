@@ -16,7 +16,7 @@ export default function DarkTheme({ children }: { children: React.ReactNode }) {
     palette: {
       mode: theme ? 'dark' : 'light',
       background: {
-        default: theme ? '#0c0f1e' : '#0000000d',
+        default: theme ? '#0c0f1e' : '#f2f2f2',
         paper: theme ? '#0c0f1e' : '#fff',
       },
       primary: {
